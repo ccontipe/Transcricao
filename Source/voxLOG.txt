@@ -1,0 +1,168 @@
+2025-06-12 18:11:53,654 - WARNING - MainThread - Aviso: CUDA não está disponível. A transcrição será executada na CPU, mesmo se a GPU for selecionada.
+2025-06-12 18:11:53,654 - INFO - MainThread - API Key do Gemini configurada.
+2025-06-12 18:11:53,654 - INFO - MainThread - Aplicação 'CesarVox' iniciada.
+2025-06-12 18:27:54,122 - WARNING - MainThread - Aviso: CUDA não está disponível. A transcrição será executada na CPU, mesmo se a GPU for selecionada.
+2025-06-12 18:27:54,129 - INFO - MainThread - API Key do Gemini configurada.
+2025-06-12 18:27:54,129 - INFO - MainThread - Aplicação 'CesarVox' iniciada.
+2025-06-12 18:29:22,864 - INFO - MainThread - Iniciando thread de transcrição para 'C:/Users/cesar/Documents/Projetos/Python/4. Transcrição - transcricao_whisper/Audios/Retorno da GoPoints sobre APIs Fiat 1.m4a' (Modelo: small, GPU: False, Análise GEM: True)
+2025-06-12 18:29:22,864 - INFO - Thread-1 (transcribe_audio_logic) - Iniciando lógica de transcrição para: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição - transcricao_whisper/Audios/Retorno da GoPoints sobre APIs Fiat 1.m4a
+2025-06-12 18:29:22,864 - INFO - Thread-1 (transcribe_audio_logic) - Dispositivo de transcrição selecionado: cpu
+2025-06-12 18:29:22,864 - INFO - Thread-1 (transcribe_audio_logic) - Usando o dispositivo: cpu
+2025-06-12 18:29:22,864 - INFO - Thread-1 (transcribe_audio_logic) - Tipo de computação: int8
+2025-06-12 18:29:25,259 - INFO - Thread-1 (transcribe_audio_logic) - Modelo Whisper carregado: small
+2025-06-12 18:29:25,572 - INFO - Thread-1 (transcribe_audio_logic) - Processing audio with duration 04:14.037
+2025-06-12 18:29:27,981 - INFO - Thread-1 (transcribe_audio_logic) - Detected language 'pt' with probability 0.98
+2025-06-12 18:29:27,991 - INFO - Thread-1 (transcribe_audio_logic) - Iniciando transcrição de áudio com duração: 254.04 segundos.
+2025-06-12 18:30:23,335 - INFO - Thread-1 (transcribe_audio_logic) - Transcrição completa. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição - transcricao_whisper/Audios/Transcrições/Transcricao-Retorno da GoPoints sobre APIs Fiat 1.txt
+2025-06-12 18:54:34,073 - INFO - Thread-1 (transcribe_audio_logic) - Transcrição salva com sucesso.
+2025-06-12 18:54:34,089 - INFO - Thread-1 (transcribe_audio_logic) - Opção 'Gerar Análise' selecionada.
+2025-06-12 18:54:34,089 - INFO - Thread-1 (transcribe_audio_logic) - Chamando Analisador de Transcrições (GEM)...
+2025-06-12 18:54:34,089 - INFO - Thread-1 (transcribe_audio_logic) - Chamando o modelo Gemini: models/gemini-1.5-flash para análise.
+2025-06-12 18:54:40,635 - INFO - Thread-1 (transcribe_audio_logic) - Análise da GEM recebida com sucesso.
+2025-06-12 18:54:40,635 - INFO - Thread-1 (transcribe_audio_logic) - Análise da GEM gerada. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição - transcricao_whisper/Audios/Transcrições\GEM - Análise Transcricao-Retorno da GoPoints sobre APIs Fiat 1.txt
+2025-06-12 18:54:42,396 - INFO - Thread-1 (transcribe_audio_logic) - Análise da GEM salva com sucesso.
+2025-06-12 18:54:42,396 - INFO - Thread-1 (transcribe_audio_logic) - Processo de transcrição finalizado.
+2025-06-12 18:54:42,518 - INFO - MainThread - Thread de transcrição finalizada e botões reativados.
+2025-06-12 18:55:09,659 - INFO - MainThread - Iniciando thread de transcrição para 'C:/Users/cesar/Documents/Projetos/Python/4. Transcrição - transcricao_whisper/Audios/Retorno da GoPoints sobre APIs Fiat 2.m4a' (Modelo: small, GPU: False, Análise GEM: True)
+2025-06-12 18:55:09,659 - INFO - Thread-6 (transcribe_audio_logic) - Iniciando lógica de transcrição para: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição - transcricao_whisper/Audios/Retorno da GoPoints sobre APIs Fiat 2.m4a
+2025-06-12 18:55:09,672 - INFO - Thread-6 (transcribe_audio_logic) - Dispositivo de transcrição selecionado: cpu
+2025-06-12 18:55:09,672 - INFO - Thread-6 (transcribe_audio_logic) - Usando o dispositivo: cpu
+2025-06-12 18:55:09,672 - INFO - Thread-6 (transcribe_audio_logic) - Tipo de computação: int8
+2025-06-12 18:55:11,568 - INFO - Thread-6 (transcribe_audio_logic) - Modelo Whisper carregado: small
+2025-06-12 18:55:13,357 - INFO - Thread-6 (transcribe_audio_logic) - Processing audio with duration 33:06.368
+2025-06-12 18:55:16,764 - INFO - Thread-6 (transcribe_audio_logic) - Detected language 'pt' with probability 1.00
+2025-06-12 18:55:16,774 - INFO - Thread-6 (transcribe_audio_logic) - Iniciando transcrição de áudio com duração: 1986.37 segundos.
+2025-06-12 19:08:50,928 - INFO - Thread-6 (transcribe_audio_logic) - Transcrição completa. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição - transcricao_whisper/Audios/Transcrições/Transcricao-Retorno da GoPoints sobre APIs Fiat 2.txt
+2025-06-12 19:09:12,336 - INFO - Thread-6 (transcribe_audio_logic) - Transcrição salva com sucesso.
+2025-06-12 19:09:12,337 - INFO - Thread-6 (transcribe_audio_logic) - Opção 'Gerar Análise' selecionada.
+2025-06-12 19:09:12,337 - INFO - Thread-6 (transcribe_audio_logic) - Chamando Analisador de Transcrições (GEM)...
+2025-06-12 19:09:12,337 - INFO - Thread-6 (transcribe_audio_logic) - Chamando o modelo Gemini: models/gemini-1.5-flash para análise.
+2025-06-12 19:09:23,082 - INFO - Thread-6 (transcribe_audio_logic) - Análise da GEM recebida com sucesso.
+2025-06-12 19:09:23,089 - INFO - Thread-6 (transcribe_audio_logic) - Análise da GEM gerada. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição - transcricao_whisper/Audios/Transcrições\GEM - Análise Transcricao-Retorno da GoPoints sobre APIs Fiat 2.txt
+2025-06-12 19:09:25,426 - INFO - Thread-6 (transcribe_audio_logic) - Análise da GEM salva com sucesso.
+2025-06-12 19:09:25,426 - INFO - Thread-6 (transcribe_audio_logic) - Processo de transcrição finalizado.
+2025-06-12 19:09:25,503 - INFO - MainThread - Thread de transcrição finalizada e botões reativados.
+2025-06-12 19:25:32,619 - INFO - MainThread - Aplicação 'CesarVox' encerrada.
+2025-06-13 15:13:16,722 - WARNING - MainThread - Aviso: CUDA não está disponível. A transcrição será executada na CPU, mesmo se a GPU for selecionada.
+2025-06-13 15:13:16,724 - INFO - MainThread - API Key do Gemini configurada.
+2025-06-13 15:13:16,724 - INFO - MainThread - Aplicação 'CesarVox' iniciada.
+2025-06-13 15:13:39,578 - INFO - MainThread - Iniciando thread de transcrição para 'C:/Users/cesar/Documents/Projetos/Python/4. Transcrição - transcricao_whisper/Audios/BKToken Next.m4a' (Modelo: small, GPU: False, Análise GEM: True)
+2025-06-13 15:13:39,578 - INFO - Thread-1 (transcribe_audio_logic) - Iniciando lógica de transcrição para: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição - transcricao_whisper/Audios/BKToken Next.m4a
+2025-06-13 15:13:39,579 - INFO - Thread-1 (transcribe_audio_logic) - Dispositivo de transcrição selecionado: cpu
+2025-06-13 15:13:39,579 - INFO - Thread-1 (transcribe_audio_logic) - Usando o dispositivo: cpu
+2025-06-13 15:13:39,579 - INFO - Thread-1 (transcribe_audio_logic) - Tipo de computação: int8
+2025-06-13 15:13:41,658 - INFO - Thread-1 (transcribe_audio_logic) - Modelo Whisper carregado: small
+2025-06-13 15:13:42,277 - INFO - Thread-1 (transcribe_audio_logic) - Processing audio with duration 10:03.755
+2025-06-13 15:13:44,985 - INFO - Thread-1 (transcribe_audio_logic) - Detected language 'pt' with probability 0.99
+2025-06-13 15:13:44,990 - INFO - Thread-1 (transcribe_audio_logic) - Iniciando transcrição de áudio com duração: 603.75 segundos.
+2025-06-13 15:18:59,409 - INFO - Thread-1 (transcribe_audio_logic) - Transcrição completa. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição - transcricao_whisper/Audios/Transcrições/Transcricao-BKToken Next.txt
+2025-06-13 15:19:15,312 - INFO - Thread-1 (transcribe_audio_logic) - Transcrição salva com sucesso.
+2025-06-13 15:19:15,312 - INFO - Thread-1 (transcribe_audio_logic) - Opção 'Gerar Análise' selecionada.
+2025-06-13 15:19:15,312 - INFO - Thread-1 (transcribe_audio_logic) - Chamando Analisador de Transcrições (GEM)...
+2025-06-13 15:19:15,312 - INFO - Thread-1 (transcribe_audio_logic) - Chamando o modelo Gemini: models/gemini-1.5-flash para análise.
+2025-06-13 15:19:23,750 - INFO - Thread-1 (transcribe_audio_logic) - Análise da GEM recebida com sucesso.
+2025-06-13 15:19:23,752 - INFO - Thread-1 (transcribe_audio_logic) - Análise da GEM gerada. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição - transcricao_whisper/Audios/Transcrições\GEM - Análise Transcricao-BKToken Next.txt
+2025-06-13 15:19:25,526 - INFO - Thread-1 (transcribe_audio_logic) - Análise da GEM salva com sucesso.
+2025-06-13 15:19:25,527 - INFO - Thread-1 (transcribe_audio_logic) - Processo de transcrição finalizado.
+2025-06-13 15:19:25,571 - INFO - MainThread - Thread de transcrição finalizada e botões reativados.
+2025-06-13 16:37:17,089 - INFO - MainThread - Aplicação 'CesarVox' encerrada.
+2025-06-16 14:47:11,190 - WARNING - MainThread - Aviso: CUDA não está disponível. A transcrição será executada na CPU, mesmo se a GPU for selecionada.
+2025-06-16 14:47:11,190 - INFO - MainThread - API Key do Gemini configurada.
+2025-06-16 14:47:11,190 - INFO - MainThread - Aplicação 'CesarVox' iniciada.
+2025-06-16 15:17:11,827 - INFO - MainThread - Iniciando thread de transcrição para 'C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/BCPO Token Handler.m4a' (Modelo: small, GPU: False, Análise GEM: True)
+2025-06-16 15:17:11,831 - INFO - Thread-1 (transcribe_audio_logic) - Iniciando lógica de transcrição para: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/BCPO Token Handler.m4a
+2025-06-16 15:17:11,831 - INFO - Thread-1 (transcribe_audio_logic) - Dispositivo de transcrição selecionado: cpu
+2025-06-16 15:17:11,831 - INFO - Thread-1 (transcribe_audio_logic) - Usando o dispositivo: cpu
+2025-06-16 15:17:11,831 - INFO - Thread-1 (transcribe_audio_logic) - Tipo de computação: int8
+2025-06-16 15:17:38,325 - INFO - Thread-1 (transcribe_audio_logic) - Modelo Whisper carregado: small
+2025-06-16 15:17:39,175 - INFO - Thread-1 (transcribe_audio_logic) - Processing audio with duration 14:55.979
+2025-06-16 15:17:42,076 - INFO - Thread-1 (transcribe_audio_logic) - Detected language 'pt' with probability 0.98
+2025-06-16 15:17:42,079 - INFO - Thread-1 (transcribe_audio_logic) - Iniciando transcrição de áudio com duração: 895.98 segundos.
+2025-06-16 15:23:20,799 - INFO - Thread-1 (transcribe_audio_logic) - Transcrição completa. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/Transcrições/Transcricao-BCPO Token Handler.txt
+2025-06-16 15:23:31,158 - INFO - Thread-1 (transcribe_audio_logic) - Transcrição salva com sucesso.
+2025-06-16 15:23:31,174 - INFO - Thread-1 (transcribe_audio_logic) - Opção 'Gerar Análise' selecionada.
+2025-06-16 15:23:31,174 - INFO - Thread-1 (transcribe_audio_logic) - Chamando Analisador de Transcrições (GEM)...
+2025-06-16 15:23:31,174 - INFO - Thread-1 (transcribe_audio_logic) - Chamando o modelo Gemini: models/gemini-1.5-flash para análise.
+2025-06-16 15:23:40,817 - INFO - Thread-1 (transcribe_audio_logic) - Análise da GEM recebida com sucesso.
+2025-06-16 15:23:40,817 - INFO - Thread-1 (transcribe_audio_logic) - Análise da GEM gerada. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/Transcrições\GEM - Análise Transcricao-BCPO Token Handler.txt
+2025-06-16 15:23:42,661 - INFO - Thread-1 (transcribe_audio_logic) - Análise da GEM salva com sucesso.
+2025-06-16 15:23:42,661 - INFO - Thread-1 (transcribe_audio_logic) - Processo de transcrição finalizado.
+2025-06-16 15:23:42,750 - INFO - MainThread - Thread de transcrição finalizada e botões reativados.
+2025-06-16 16:42:05,593 - INFO - MainThread - Iniciando thread de transcrição para 'C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/Alinhamento Novo Portal Datapower x IHS.m4a' (Modelo: small, GPU: False, Análise GEM: True)
+2025-06-16 16:42:05,594 - INFO - Thread-6 (transcribe_audio_logic) - Iniciando lógica de transcrição para: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/Alinhamento Novo Portal Datapower x IHS.m4a
+2025-06-16 16:42:05,595 - INFO - Thread-6 (transcribe_audio_logic) - Dispositivo de transcrição selecionado: cpu
+2025-06-16 16:42:05,595 - INFO - Thread-6 (transcribe_audio_logic) - Usando o dispositivo: cpu
+2025-06-16 16:42:05,595 - INFO - Thread-6 (transcribe_audio_logic) - Tipo de computação: int8
+2025-06-16 16:42:07,688 - INFO - Thread-6 (transcribe_audio_logic) - Modelo Whisper carregado: small
+2025-06-16 16:42:09,966 - INFO - Thread-6 (transcribe_audio_logic) - Processing audio with duration 36:42.944
+2025-06-16 16:42:14,456 - INFO - Thread-6 (transcribe_audio_logic) - Detected language 'pt' with probability 0.91
+2025-06-16 16:42:14,471 - INFO - Thread-6 (transcribe_audio_logic) - Iniciando transcrição de áudio com duração: 2202.94 segundos.
+2025-06-16 16:56:23,420 - INFO - Thread-6 (transcribe_audio_logic) - Transcrição completa. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/Transcrições/Transcricao-Alinhamento Novo Portal Datapower x IHS.txt
+2025-06-16 16:56:26,489 - INFO - Thread-6 (transcribe_audio_logic) - Transcrição salva com sucesso.
+2025-06-16 16:56:26,489 - INFO - Thread-6 (transcribe_audio_logic) - Opção 'Gerar Análise' selecionada.
+2025-06-16 16:56:26,490 - INFO - Thread-6 (transcribe_audio_logic) - Chamando Analisador de Transcrições (GEM)...
+2025-06-16 16:56:26,490 - INFO - Thread-6 (transcribe_audio_logic) - Chamando o modelo Gemini: models/gemini-1.5-flash para análise.
+2025-06-16 16:56:37,575 - INFO - Thread-6 (transcribe_audio_logic) - Análise da GEM recebida com sucesso.
+2025-06-16 16:56:37,576 - INFO - Thread-6 (transcribe_audio_logic) - Análise da GEM gerada. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/Transcrições\GEM - Análise Transcricao-Alinhamento Novo Portal Datapower x IHS.txt
+2025-06-16 16:56:39,458 - INFO - Thread-6 (transcribe_audio_logic) - Análise da GEM salva com sucesso.
+2025-06-16 16:56:39,458 - INFO - Thread-6 (transcribe_audio_logic) - Processo de transcrição finalizado.
+2025-06-16 16:56:39,554 - INFO - MainThread - Thread de transcrição finalizada e botões reativados.
+2025-06-16 18:12:21,145 - INFO - MainThread - Aplicação 'CesarVox' encerrada.
+2025-06-16 18:41:18,327 - WARNING - MainThread - Aviso: CUDA não está disponível. A transcrição será executada na CPU, mesmo se a GPU for selecionada.
+2025-06-16 18:41:18,327 - INFO - MainThread - API Key do Gemini configurada a partir da variável de ambiente.
+2025-06-16 18:41:18,327 - INFO - MainThread - Aplicação 'CesarVox' iniciada.
+2025-06-16 18:41:38,558 - INFO - MainThread - Aplicação 'CesarVox' encerrada.
+2025-06-16 18:42:48,398 - WARNING - MainThread - Aviso: CUDA não está disponível. A transcrição será executada na CPU, mesmo se a GPU for selecionada.
+2025-06-16 18:42:48,398 - INFO - MainThread - API Key do Gemini configurada.
+2025-06-16 18:42:48,398 - INFO - MainThread - Aplicação 'CesarVox' iniciada.
+2025-06-16 18:42:59,320 - INFO - MainThread - Aplicação 'CesarVox' encerrada.
+2025-06-16 18:45:23,979 - WARNING - MainThread - Aviso: CUDA não está disponível. A transcrição será executada na CPU, mesmo se a GPU for selecionada.
+2025-06-16 18:45:23,995 - INFO - MainThread - API Key do Gemini configurada.
+2025-06-16 18:45:23,995 - INFO - MainThread - Aplicação 'CesarVox' iniciada.
+2025-06-16 18:47:26,368 - INFO - MainThread - Aplicação 'CesarVox' encerrada.
+2025-06-16 18:48:24,380 - WARNING - MainThread - Aviso: CUDA não está disponível. A transcrição será executada na CPU, mesmo se a GPU for selecionada.
+2025-06-16 18:48:24,380 - INFO - MainThread - API Key do Gemini configurada a partir da variável de ambiente.
+2025-06-16 18:48:24,383 - INFO - MainThread - Aplicação 'CesarVox' iniciada.
+2025-06-16 18:49:03,118 - INFO - MainThread - Aplicação 'CesarVox' encerrada.
+2025-06-17 10:12:11,815 - WARNING - MainThread - Módulos necessários não encontrados. Iniciando instalação automática...
+2025-06-17 10:12:11,815 - INFO - MainThread - Tentando instalar o pacote: faster-whisper
+2025-06-17 10:12:13,361 - ERROR - MainThread - Erro ao instalar o pacote 'faster-whisper': Command '['C:\\Users\\cesar\\Documents\\Projetos\\Python\\3. Mega Sena\\.venv\\Scripts\\python.exe', '-m', 'pip', 'install', 'faster-whisper', '--user']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "C:\Users\cesar\Documents\Projetos\Python\4. Transcrição\source\transcrever-5.1.1.py", line 41, in <module>
+    from faster_whisper import WhisperModel
+ModuleNotFoundError: No module named 'faster_whisper'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cesar\Documents\Projetos\Python\4. Transcrição\source\transcrever-5.1.1.py", line 26, in install_package
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package, "--user"])
+  File "C:\Users\cesar\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['C:\\Users\\cesar\\Documents\\Projetos\\Python\\3. Mega Sena\\.venv\\Scripts\\python.exe', '-m', 'pip', 'install', 'faster-whisper', '--user']' returned non-zero exit status 1.
+2025-06-17 10:12:19,285 - ERROR - MainThread - Falha na instalação de faster-whisper. Encerrando.
+2025-06-17 10:13:34,363 - WARNING - MainThread - Aviso: CUDA não está disponível. A transcrição será executada na CPU, mesmo se a GPU for selecionada.
+2025-06-17 10:13:34,363 - INFO - MainThread - API Key do Gemini configurada.
+2025-06-17 10:13:34,363 - INFO - MainThread - Aplicação 'CesarVox' iniciada.
+2025-06-17 10:14:46,844 - INFO - MainThread - Iniciando thread de transcrição para 'C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/BCPO Token Handler.m4a' (Modelo: small, GPU: False, Análise GEM: True, Solução GEM: True)
+2025-06-17 10:14:46,844 - INFO - Thread-1 (transcribe_audio_logic) - Iniciando lógica de transcrição para: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/BCPO Token Handler.m4a
+2025-06-17 10:14:46,844 - INFO - Thread-1 (transcribe_audio_logic) - Dispositivo de transcrição selecionado: cpu
+2025-06-17 10:14:46,844 - INFO - Thread-1 (transcribe_audio_logic) - Usando o dispositivo: cpu
+2025-06-17 10:14:46,844 - INFO - Thread-1 (transcribe_audio_logic) - Tipo de computação: int8
+2025-06-17 10:14:49,375 - INFO - Thread-1 (transcribe_audio_logic) - Modelo Whisper carregado: small
+2025-06-17 10:14:50,376 - INFO - Thread-1 (transcribe_audio_logic) - Processing audio with duration 14:55.979
+2025-06-17 10:14:53,246 - INFO - Thread-1 (transcribe_audio_logic) - Detected language 'pt' with probability 0.98
+2025-06-17 10:14:53,246 - INFO - Thread-1 (transcribe_audio_logic) - Iniciando transcrição de áudio com duração: 895.98 segundos.
+2025-06-17 10:20:38,711 - INFO - Thread-1 (transcribe_audio_logic) - Transcrição completa. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/Transcrições/Transcricao-BCPO Token Handler - teste GEM.txt
+2025-06-17 10:20:42,006 - INFO - Thread-1 (transcribe_audio_logic) - Transcrição salva com sucesso.
+2025-06-17 10:20:42,006 - INFO - Thread-1 (transcribe_audio_logic) - Chamando o modelo Gemini para: Análise de Transcrições.
+2025-06-17 10:20:50,764 - INFO - Thread-1 (transcribe_audio_logic) - Resposta da GEM para Análise de Transcrições recebida com sucesso.
+2025-06-17 10:20:50,764 - INFO - Thread-1 (transcribe_audio_logic) - Análise da GEM gerada. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/Transcrições\GEM - Analise Transcricao-BCPO Token Handler - teste GEM.txt
+2025-06-17 10:20:52,375 - INFO - Thread-1 (transcribe_audio_logic) - Análise da GEM salva com sucesso.
+2025-06-17 10:20:52,375 - INFO - Thread-1 (transcribe_audio_logic) - Chamando o modelo Gemini para: Geração de Solução.
+2025-06-17 10:21:13,904 - INFO - Thread-1 (transcribe_audio_logic) - Resposta da GEM para Geração de Solução recebida com sucesso.
+2025-06-17 10:21:13,904 - INFO - Thread-1 (transcribe_audio_logic) - Solução Técnica da GEM gerada. Salvando em: C:/Users/cesar/Documents/Projetos/Python/4. Transcrição/Audios/Transcrições\GEM - Solucao Tecnica Transcricao-BCPO Token Handler - teste GEM.txt
+2025-06-17 10:21:15,520 - INFO - Thread-1 (transcribe_audio_logic) - Solução Técnica da GEM salva com sucesso.
+2025-06-17 10:21:15,520 - INFO - Thread-1 (transcribe_audio_logic) - Processo de transcrição finalizado.
+2025-06-17 10:21:15,632 - INFO - MainThread - Thread de transcrição finalizada e botões reativados.
+2025-06-17 10:35:33,485 - INFO - MainThread - Aplicação 'CesarVox' encerrada.
