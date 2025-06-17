@@ -521,7 +521,7 @@ class TranscriptionApp:
             self.update_progress_label("Sinal de cancelamento enviado...")
             logger.info("Solicitação de cancelamento de transcrição enviada.")
 
-    def check_transcription_thread(self, thread):
+    def check_transcription_thread(self, thread): 
         if thread.is_alive():
             self.master.after(100, lambda: self.check_transcription_thread(thread))
         else:
