@@ -1,0 +1,6 @@
+2025-06-21 09:05:32,273 - INFO - MainThread - Aplicação 'CesarVox' iniciada.
+2025-06-21 09:25:38,499 - INFO - MainThread - Aplicação 'CesarVox' encerrada.
+2025-06-21 09:31:56,363 - INFO - MainThread - Aplicação 'CesarVox' iniciada.
+2025-06-21 09:32:00,883 - INFO - MainThread - Aplicação 'CesarVox' encerrada.
+2025-06-21 09:38:23,110 - INFO - MainThread - Aplicação 'CesarVox' iniciada.
+2025-06-21 09:40:08,597 - INFO - MainThread - Aplicação 'CesarVox' encerrada.
